@@ -1,0 +1,63 @@
+synopsis {
+  color: #7E8184;        /* Light gray */
+  font-style: italic;
+}
+button {
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+<div class='button call-to-action'>Button Two</div>
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited:hover {
+  color: orange;
+}
+a:visited:active {
+  color: red;
+}
+<a class='button' href='nowhere.html'>Button One</a>
+<a class='button call-to-action' href='nowhere.html'>Button Two</a>
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+
+  <div class='sidebar'>
+  <p>If this page had a sidebar...</p>
+  <p>We’d have some problems with pseudo-classes.</p>
+</div>
+.page > p:first-of-type {
+  color: #7E8184;
+  font-style: italic;
+}
+#button-2 {
+  color: #5D6063;  /* Dark gray */
+}
