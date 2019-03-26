@@ -426,7 +426,7 @@ a.icon {
 }
 
 .header-one {
-  background: url('../images/Succulents_Background.jpg!d') no-repeat;
+  background: url('images/Succulents_Background.jpg!d') no-repeat;
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
@@ -438,10 +438,10 @@ a.icon {
   background: url('../images/header-three-bg.jpg') no-repeat;
 }
 .header-four {
-  background: url('../images/Succulents_2.jpg') no-repeat;
+  background: url('images/Succulents_2.jpg') no-repeat;
 }
 .header-five {
-  background: url('../images/succulent-care.jpg') no-repeat;
+  background: url('images/succulent-care.jpg') no-repeat;
 }
 
 /* Portfolio section styles
