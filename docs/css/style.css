@@ -29,7 +29,7 @@ html {
 /* Typography
 ------------------------------------- */
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4, {
   font-weight: 400;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -57,12 +57,24 @@ h5 {
   letter-spacing: 1px;
 }
 
+
+
 p {
   color: #777;
   font-size: 16px;
   line-height: 28px;
   word-spacing: 1px;
   letter-spacing: 1px;
+}
+
+h6 {
+	color:white;
+	font-size: 30px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-weight: 300;
+	font-family: "Goudy Bookletter 1911", sans-serif;
 }
 
 a {
@@ -426,22 +438,27 @@ a.icon {
 }
 
 .header-one {
-  background: url('images/Succulents_Background.jpg') no-repeat;
+  background: url('../images/Succulents_Background.jpg') no-repeat;
+	background-color: white; /*use if image unavailable*/
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
 }
 .header-two {
-  background: url('images/succulents_window.jpg') no-repeat;
+  background: url('../images/succulents_window.jpg') no-repeat;
+	background-color: white;/*use if image unavailable*/
 }
 .header-three {
-  background: url('images/succulents_window.jpg') no-repeat;
+  background: url('../images/succulents_window.jpg') no-repeat;
+	background-color: white;/*use if image unavailable*/
 }
 .header-four {
-  background: url('images/Succulents_2.jpg') no-repeat;
+  background: url('../images/Succulents_2.jpg') no-repeat;
+	background-color: white;/*use if image unavailable*/
 }
 .header-five {
-  background: url('images/Succulents_3.jpg') no-repeat;
+  background: url('../images/Succulents_3.jpg') no-repeat;
+	background-color: white;/*use if image unavailable*/
 }
 
 /* Portfolio section styles
